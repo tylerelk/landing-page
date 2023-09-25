@@ -3,36 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="bodycontainer">
         <div class="header">
             <h3 class="headerlogo">Header Logo</h3>
-            <ul>
+            <ul class="headerlinks">
                 <li><a href="#">Link One</a></li>
                 <li><a href="#">Link Two</a></li>
                 <li><a href="#">Link Three</a></li>
             </ul>
         </div>
         <div class="section1">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-            <button class="signup">Sign Up</button>
-            <img src="#" id="topimage">
+            <div class="containers1">
+                <h1>This website is awesome</h1>
+                <p class="descs1">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button class="signup">Sign Up</button>
+            </div>
+                <img src="./images/pexels-roman-odintsov-6898861.jpg" id="topimage">
         </div>
         <div class="section2">
             <h2>Some random information.</h2>
-            <ul>
-                <li><img src="./images/pexels-cottonbro-cg-studio-8832766.jpg">This is some subtext under an illustration or image</li>
-                <li><img src="./images/pexels-cottonbro-cg-studio-8833426.jpg">This is some subtext under an illustration or image</li>
-                <li><img src="./images/pexels-cottonbro-cg-studio-8833494.jpg">This is some subtext under an illustration or image</li>
-                <li><img src="./images/pexels-cottonbro-cg-studio-8834490.jpg">This is some subtext under an illustration or image</li>
+            <ul class="icons">
+                <li class="icon"><img src="./images/pexels-cottonbro-cg-studio-8832766.jpg">This is some subtext under an illustration or image</li>
+                <li class="icon"><img src="./images/pexels-cottonbro-cg-studio-8833426.jpg">This is some subtext under an illustration or image</li>
+                <li class="icon"><img src="./images/pexels-cottonbro-cg-studio-8833494.jpg">This is some subtext under an illustration or image</li>
+                <li class="icon"><img src="./images/pexels-cottonbro-cg-studio-8834490.jpg">This is some subtext under an illustration or image</li>
             </ul>
         </div>
         <div class="section3">
-            <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <h3>-Thor, God of Thunder</h3>
+            <div class="quotecontainer">
+                <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <h3 id="thor">-Thor, God of Thunder</h3>
+            </div>
         </div>
         <div class="section4">
             <div class="containers4">
@@ -42,7 +47,8 @@
             </div>
         </div>
         <div class="footer">
-    </div>
+            <h4>Copywright C TylerElk</h4>
         </div>
+    </div>
 </body>
 </html>
